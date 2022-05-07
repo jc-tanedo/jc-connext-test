@@ -1,0 +1,19 @@
+{
+  "name": "jc-connext-test",
+  "version": "0.0.1",
+  "description": "Small application to parse and transform CSVs inside a zip file to JSON",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JC Tanedo",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "csv-parse": "^5.0.4",
+    "jszip": "^3.9.1",
+    "moment": "^2.29.3"
+  },
+  "type": "module"
+}
